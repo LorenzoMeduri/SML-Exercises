@@ -1,6 +1,6 @@
 (*
 Write a function called treeDepth (tree -> int) 
-that removes all nodes and leaves below a given depth d, where the root is at depth 0.
+that returns the depth of the tree (the longest path from the root to a leaf)
 *)
 
 datatype tree = Empty | Node of int*tree*tree | Leaf of int;
